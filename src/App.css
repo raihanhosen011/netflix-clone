@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #292929;
+}
+.bennar_container {
+  object-fit: contain;
+  color: white;
+  height: 468px;
+  display: flex;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.bennar-contains {
+  margin-left: 19px;
+  font-size: 14px;
+}
+.bennar-contains h2 {
+  font-size: 36px;
+}
+.bennar-contains .bennar-btns {
+  margin: 17px 1px;
+}
+
+.bennar-btns button {
+  padding: 9px 17px;
+  outline: none;
+  margin-right: 13px;
+  border-radius: 7px;
+  background: #6d6d6dab;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bennar-contains .dennar-description p {
+  width: 373px;
+  line-height: 20px;
+}
+
+.bennar-btns button:hover {
+  background: #e8e8e8;
+  color: #2d2d2d;
+}
+.rows__container {
+  padding: 24px 12px;
+  font-size: 15px;
+  color: white;
+}
+.row-container {
+  margin-top: 22px;
+  border-top: 1px solid #383838;
+  padding-top: 6px;
+}
+
+.row-container:first-child {
+  margin-top: 0px;
+  border-top: none;
+  padding-top: 0px;
+}
+.navbar-container img:last-child {
+  float: right;
+  margin: 10px 11px;
+}
+.navbar-container {
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  transition: .6s;
+  opacity: 1;
+}
+.democlass{
+  position: fixed;
+  background: rgb(41, 41, 41);
+  opacity: 1;
+}
